@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test1" parallel="methods" thread-count="3">
+    <parameter name="firstName" value="Cedric"></parameter>
+    <parameter name="lastName" value="Murphy"></parameter>
+    <test name="test1">
+        <classes>
+            <class name="parameterization.ParameterExample"></class>
+        </classes>
+    </test>
+
+</suite>
